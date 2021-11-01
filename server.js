@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
-const url = "mongodb+srv://cweston0727:aGxo6vnkRFkkoL7O@cluster0.ahgdx.mongodb.net/pali?retryWrites=true&w=majority"
+const url = "mongodb+srv://cweston0727:RIpcpqZAFy0W9qQu@cluster0.ahgdx.mongodb.net/pali?retryWrites=true&w=majority"
+const dbName = "Pali";
 
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({ extended: true }))
